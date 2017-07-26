@@ -1,0 +1,205 @@
+/*style sheet for basic portfolio project: index, contact and portfolio html*/
+/*Author: Wallis Chau*/
+/*Date: 7/19/17*/
+body {
+	/*background: #333333;*/
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+header {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	background: #ffffff;
+	font-weight: bold;
+}
+
+/*header */
+.heading {
+	/*width: 960px;*/
+	height: 80px;
+	margin: 0;
+	border: 1px solid #cccccc;
+	text-align: center;
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+
+/* header div */
+#onwer {        
+	background: #4aaaa5;
+	font-size: 18pt;
+	color: #ffffff;
+	width: 200px;
+	height: 40px;
+	padding: 20px;
+	margin: 0;
+	position: relative;
+	top: 0;
+	left: 100px;
+}
+
+/* nav */
+.menu {
+	width: 400px;
+	height: 40px;
+	padding: 20px;
+	position: absolute;
+	right: 0;		
+	top: 0;
+}
+
+.menu a {
+	width: 80px;
+	float: left;
+	text-decoration: none;
+	font-weight: normal;
+	color: #777777;
+}
+
+article header {
+	background: #ffffff;
+}
+
+
+
+/* div */
+.main_area {    
+	background-image: url("../images/ep_naturalwhite.png");
+	height: 500px;
+	border-color: #dddddd;
+	border-width: 2px 0 2px 0;
+	border-style: solid;
+}
+
+/*section */ 
+.left_panel, .right_panel {
+	background: #ffffff;
+	border: 2px solid #dddddd;
+	padding: 10px;
+	float: left;
+}
+
+.left_panel {
+	width: 540px;
+	margin: 30px 30px 30px 100px;
+}
+
+/* aside */
+.right_panel {
+	width: 200px;
+	margin-top: 30px;
+}
+
+/* article */
+.panel_topic {
+	padding: 10px;
+}
+
+/* article header*/
+.panel_heading {
+	color: #4aaaa5;
+	/*padding: 10px;*/
+	margin: 0;
+}
+
+.panel_heading h2 {
+	font-size: 16pt;
+}
+
+.panel_heading h3 {
+	font-size: 14pt;
+
+}
+
+.divider {
+	height: 3px;
+	margin: 10px 20px 10px 0;
+	background: #eeeeee;
+}
+
+.detail {
+	margin-top: 20px;
+}
+/* article div */
+.detail img {
+	margin-right: 20px;
+	/*float: left;*/
+	height: 160px;
+	width: 180px;
+}
+
+.images {
+	float: left;
+}
+
+/*li */
+.activity img {
+	margin-bottom: 40px;
+}
+
+.activity {
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.activity label {
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 160px;
+	padding: 10px 10px;
+	font-size: 12pt;
+	text-align: center;
+	position: absolute;	
+	bottom: 50px;
+}
+
+.activity .tooltiptext {
+	visibility: hidden;
+	background: #22d18d;
+	color: #ffffff;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+
+}
+
+.activity:hover .tooltiptext {
+	visibility: visible;
+}
+
+/* p */
+.detailtext {
+	/*margin: 20px;	*/
+	line-height: 1.5;
+	margin-bottom: 2em;
+}
+
+.detail input, textarea {
+	border: 1px solid #dddddd;
+	width: 95%;
+	padding: 5px;
+}
+
+textarea {
+	height: 160px;
+}
+
+input[type=submit] {
+	width: 100px;
+	color: #ffffff;
+	background: #4aaaa5;
+}
+
+footer {
+	background: #666666;
+	color: #cccccc;
+	font-size: 8pt;
+	text-align: center;
+	padding: 26px;
+	border-top: 8px solid #4aaaa5;
+	clear: both;
+}
