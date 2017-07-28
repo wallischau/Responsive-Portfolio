@@ -297,6 +297,10 @@ footer {
 		width: 50%;
 	}
 
+	.detailtext {
+		clear: both;
+	}
+
 	/*for testing only
 	.main_area {
 		background: pink;
